@@ -1,0 +1,99 @@
+@media screen and (min-width: 1200px) {
+    /***** header *****/
+    .header {
+        background-color: rgb(29, 91, 206);
+        display: flex;
+        justify-content: center;
+    }
+    .header__container {
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+    .header__page-name {
+        align-self: center;
+    }
+    .header__menu {
+        align-self: center;
+        flex-wrap: wrap;
+
+    }
+    .header__menu ul li a:hover {
+        color: gold;
+    }
+    .header__search a #search-icon:hover {
+        color: gold;
+    }
+    .header__menu ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .header__menu ul li a.active {
+        color: gold;
+    }
+    /**box contact**/ 
+    .box-contact {
+        display: flex;
+        width: 60%;
+        margin-left: 20%;
+        
+    }
+    /** contact info **/
+    .container-contact {
+        flex: 1;
+    }
+    .container-contact-info {
+        margin-right: 15px;
+    }
+    .container-contact-us {
+        margin-left: 15px;
+    }
+    
+    
+    /**contact us**/
+    .form-item {
+        display: flex;
+    }
+    .form-item label {
+        width: 200px;
+    }
+    .form-input {
+        flex: 1;
+    }
+    .form {
+        height: 350px;
+        position: relative;
+    }
+    .send-message__box {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    /***** footer *****/
+    .footer__1 {
+        flex-direction: row;
+        display: flex;
+        justify-content: space-between;
+        width: 60%;
+        margin-left: 20%;
+    } 
+    .crevea {
+        flex: 1;
+        margin-right: 1em;
+
+    }
+    .categorys {
+        flex: 1;
+        margin-right: 1em;
+    }
+    .language {
+        flex: 1;
+        margin-right: 1em;
+    }
+    .get {
+        flex: 1;
+    }
+    
+}

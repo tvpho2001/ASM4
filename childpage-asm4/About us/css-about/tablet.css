@@ -1,0 +1,54 @@
+@media screen and (min-width: 769px)  and (max-width: 1199px) {
+    /***** header *****/
+    .header {
+        background-color: rgb(29, 91, 206);
+    }
+    .header__container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .header__page-name {
+        margin-left: 2em;
+        align-self: center;
+    }
+    .header__menu {
+        margin-right: 2em;
+        align-self: center;
+    }
+    .header__menu ul li a:hover {
+        color: gold;
+    }
+    .header__search a #search-icon:hover {
+        color: gold;
+    }
+    .header__menu ul {
+        display: flex;
+    }
+    .header__menu ul li a.active {
+        color: gold;
+    }
+
+
+    /** about us **/
+    .container-about {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+
+    /** Meet our team **/
+
+
+    /***** footer *****/
+    .footer__1 {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+
+
+
+
+
+}   
